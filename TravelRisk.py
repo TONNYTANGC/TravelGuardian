@@ -107,10 +107,15 @@ def predict_travel_risk(heart_data, hypertension_data, diabetes_data, asthma_dat
 
 # Example usage:
 heart_data = np.array([[58, 0, 1, 165, 1, 1, 2, 2, 3]]) 
+# Age, Sex, Chest_Pain, Max_Heart_Rate, Exercise_Induced_Angina, Old_Peak, Slope, No_Major_Vessels, Thal 
 hypertension_data = np.array([[61,0,0,225,95,28.58,65]]) 
+# age, BPMeds, totChol, sysBP, diaBP, BMI, heartRate 
 diabetes_data = np.array([[0, 50, 4.7, 46, 4.9, 4.2, 0.9, 2.4, 1.4, 0.5, 24]])
+# Gender, AGE, Urea,Cr,HbA1c,Chol,TG,HDL,LDL,VLDL,BMI 
 asthma_data = np.array([[1, 0, 5, 1, 6.58, 1, 2.19, 0, 1]])
+# 'ExerciseInduced', 'ChestTightness', 'LungFunctionFVC', 'Wheezing','DustExposure', 'Coughing', 'LungFunctionFEV1', 'GastroesophagealReflux', 'NighttimeSymptoms'
 airquality_data = np.array([[2, 4, 5, 4, 2, 2, 4, 3, 2]])  
+# AQI,PM10,PM2_5,NO2,SO2,O3,Temperature,Humidity,WindSpeed 
 
 # Assume other diseases severities on a scale from 0 to 1
 other_disease_severities = [0.7, 0.5, 0.3]  # Replace with actual severities of other diseases
